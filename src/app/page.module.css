@@ -16,11 +16,16 @@
   grid-template-columns: 1fr 100px 100px;
 }
 
+.header > :nth-child(2) {
+  padding-right: 1.3em;
+}
+
 .arrow {
-  font-size: 1.2em; /* Ajusta el tamaño que prefieras */
-  vertical-align: middle; /* Para alinear la flecha verticalmente */
+  font-size: 1.2em;
+  vertical-align: middle;
 }
 
 .githubLink {
   margin-top: -2px;
+  padding-right: 1.3em;
 }
