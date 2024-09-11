@@ -73,3 +73,16 @@ body.dark-mode section a {
   border-top-color: var(--border-dark);
   border-bottom-color: var(--border-dark);
 }
+
+@media only screen and (max-width: 900px) {
+
+  .header {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  h1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+}
