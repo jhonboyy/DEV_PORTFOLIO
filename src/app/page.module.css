@@ -36,12 +36,16 @@
 
 @media only screen and (max-width: 900px) {
 
+  .page {
+    height: 100dvh;
+  }
+
   .header {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
     gap: 1.3em;
   }
-  
+
   .header > :nth-child(2) {
     padding-left: 1.3em;
   }
