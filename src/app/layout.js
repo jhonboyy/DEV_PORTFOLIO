@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import DarkModeWrapper from "../components/dark-mode-wrapper";
+import { Analytics } from "@vercel/analytics/react"
 
 const geistSans = localFont({
   src: "fonts/ABCFavoritMono-Light.woff",
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <DarkModeWrapper>{children}</DarkModeWrapper>
       </body>
+      <Analytics/>
     </html>
   );
 }
