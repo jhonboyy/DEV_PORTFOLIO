@@ -18,7 +18,7 @@ export default function Home() {
           <a href="https://jhonboyy.github.io/RISO_LAB/" target="_blank">
             <span>2023</span>
             <span>RISO LAB</span>
-            <span>P5, JS</span>
+            <span>NEXT, P5, JS</span>
           </a>
           <a href="https://jhonboyy.github.io/DINO_GAME/" target="_blank" >
             <span>2023</span>
