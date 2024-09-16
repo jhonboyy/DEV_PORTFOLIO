@@ -15,7 +15,7 @@ export default function Home() {
             <span>ETIFILM</span>
             <span>NUXT, DOCKER, TS</span>
           </a>
-          <a href="https://jhonboyy.github.io/RISO_LAB/" target="_blank">
+          <a href="https://riso-lab.jhonboy.com" target="_blank">
             <span>2023</span>
             <span>RISO LAB</span>
             <span>NEXT, P5, JS</span>
