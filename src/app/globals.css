@@ -25,6 +25,17 @@ html, body {
   transition: background-color 500ms ease-in-out, color 500ms ease-in-out;
 }
 
+body.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--foreground-dark);
+}
+
+body.dark-mode section a {
+  border-top-color: var(--border-dark);
+  border-bottom-color: var(--border-dark);
+}
+
+
 h1 {
   font-size: 1em;
   font-weight: 100;
@@ -73,6 +84,30 @@ body.dark-mode section a {
   border-top-color: var(--border-dark);
   border-bottom-color: var(--border-dark);
 }
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-background {
+  background: linear-gradient(-45deg, black, rgb(45, 45, 45), rgb(81, 81, 81));
+  background-size: 300% 300%;
+  transition: background-position 5s ease;
+}
+
+@media (max-width: 768px) {
+  .animated-background {
+    animation: gradient-animation 10s linear infinite;
+  }
+}
+
 
 @media only screen and (max-width: 900px) {
 
