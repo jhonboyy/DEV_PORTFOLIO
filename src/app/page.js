@@ -36,6 +36,11 @@ export default function Home() {
               <span>ETIFILM</span>
               <span>NUXT, DOCKER, TS</span>
             </a>
+            <a href="https://studioskarv.com" target="_blank">
+              <span>2024</span>
+              <span>SKARV</span>
+              <span>LIQUID, JS</span>
+            </a>
             <a href="https://riso-lab.jhonboy.com" target="_blank">
               <span>2023</span>
               <span>RISO LAB</span>
